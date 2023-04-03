@@ -80,10 +80,10 @@ def graph_plot(k, p, r, f):
 
 
 if __name__ == "__main__":
-    animals = pd.read_csv('CA2data/animals', delimiter=' ', header=None)
-    countries = pd.read_csv('CA2data/countries', delimiter=' ', header=None)
-    fruits = pd.read_csv('CA2data/fruits', delimiter=' ', header=None)
-    veggies = pd.read_csv('CA2data/veggies', delimiter=' ', header=None)
+    animals = pd.read_csv('data/animals', delimiter=' ', header=None)
+    countries = pd.read_csv('data/countries', delimiter=' ', header=None)
+    fruits = pd.read_csv('data/fruits', delimiter=' ', header=None)
+    veggies = pd.read_csv('data/veggies', delimiter=' ', header=None)
 
     animals[0] = np.ones(len(animals[0]))
     countries[0] = np.ones(len(countries[0]))+1
